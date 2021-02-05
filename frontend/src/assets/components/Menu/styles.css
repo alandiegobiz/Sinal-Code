@@ -1,0 +1,29 @@
+.section-3 {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #039be5, #0277bd );
+    
+}
+
+.section-3 .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1264px;
+}
+
+.section-3 img {
+    width: 200px;
+    height: 100px;
+    
+}
+
+li {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.menu {
+    color: #ffffff;
+}

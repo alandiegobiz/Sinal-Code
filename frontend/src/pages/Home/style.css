@@ -1,0 +1,75 @@
+* {
+    padding: 0 !important;
+}
+
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to right, #ffb74d, #ef6c00 );
+}
+
+.section-1 .container {
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+
+.section-1 .container main {
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+    
+}
+
+.section-1 .container main section:nth-child(1) h1 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.section-1 .container main section:nth-child(1) p {
+    margin-top: 24px;
+    font-size: 18px;
+    color:#fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.section-1 .container main section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0 0 32px;
+}
+
+.section-1 .container main section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0 0 32px;
+}
+
+.section-1 .container-2 {
+    margin-top: -500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 .container-2 .card-study {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 .container-2 h1 {
+    margin-top: 80px;
+    font-size: 40px;
+    line-height: 56px;
+    color: rgb(232, 255, 22);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}

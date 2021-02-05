@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to right, #ffb74d, #ef6c00 );
+}
+
+.footer .logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 8%;
+}
+
+.footer .logos img {
+    width: 30px;
+    height: 30px;
+}
